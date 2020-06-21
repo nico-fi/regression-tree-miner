@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="330.0" prefWidth="330.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graphics.PredictionSceneController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="32.0" layoutY="14.0" prefHeight="83.0" prefWidth="278.0" text="Regression Tree Learner" textAlignment="CENTER" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+         <font>
+            <Font name="Palatino Bold" size="24.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="90.0" layoutY="137.0" prefHeight="23.0" prefWidth="158.0" text="Select an Option:" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="90.0">
+         <font>
+            <Font name="Optima Regular" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="insertButton" alignment="CENTER" contentDisplay="CENTER" disable="true" layoutX="90.0" layoutY="239.0" mnemonicParsing="false" onAction="#insertButtonAction" prefHeight="45.0" prefWidth="153.0" text="Insert" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="90.0">
+         <font>
+            <Font name="Serif Regular" size="20.0" />
+         </font></Button>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="90.0" layoutY="88.0" prefHeight="23.0" prefWidth="158.0" text="Prediction Phase" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="80.0">
+         <font>
+            <Font name="Avenir Medium Oblique" size="19.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="predictionBox" layoutX="80.0" layoutY="179.0" onAction="#enableInsertButton" prefHeight="27.0" prefWidth="188.0" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="80.0" />
+   </children>
+</AnchorPane>

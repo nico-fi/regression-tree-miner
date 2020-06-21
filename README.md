@@ -1,2 +1,3 @@
-# regression-tree-miner
-Corso di Metodi Avanzati di Programmazione
+# Regression Tree Miner
+
+Regression Tree Miner è un sistema client-server sviluppato in Java. Il server include funzionalità di data mining per l'apprendimento di alberi di regressione, partendo da training set archiviati su database MySQL. I modelli appresi vengono salvati e resi disponibili per previsioni successive. Il client consente di eseguire predizioni a linea di comando, usufruendo del servizio di previsione remoto. In aggiunta, il client è dotato di un'interfaccia grafica implementata mediante JavaFX.

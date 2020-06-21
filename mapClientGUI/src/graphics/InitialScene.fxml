@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="330.0" prefWidth="330.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graphics.InitialSceneController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="32.0" layoutY="14.0" prefHeight="83.0" prefWidth="278.0" text="Regression Tree Learner" textAlignment="CENTER" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+         <font>
+            <Font name="Palatino Bold" size="24.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Button fx:id="databaseButton" alignment="CENTER" contentDisplay="CENTER" layoutX="15.0" layoutY="111.0" mnemonicParsing="false" onAction="#databaseButtonAction" prefHeight="60.0" prefWidth="300.0" text="Learn Regression Tree from Database" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+         <font>
+            <Font name="Serif Regular" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="archiveButton" alignment="CENTER" contentDisplay="CENTER" layoutX="15.0" layoutY="193.0" mnemonicParsing="false" onAction="#archiveButtonAction" prefHeight="60.0" prefWidth="300.0" text="Load Regression Tree from Archive" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+         <font>
+            <Font name="Serif Regular" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="88.0" layoutY="291.0" text="\@author Nicola Fiorentino">
+         <font>
+            <Font name="AppleGothic Regular" size="13.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
